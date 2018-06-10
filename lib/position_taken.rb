@@ -1,8 +1,8 @@
 def position_taken?(board,index)
   val1 = board[index]
   if val1 == " "
-    "false"
+    false
   else
-    "true"
+    true
   end
 end
