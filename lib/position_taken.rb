@@ -1,5 +1,5 @@
 def position_taken?(num)
-  if board[num] == " " || ""
+  if num == " " || ""
     "false"
   else
     "true"
